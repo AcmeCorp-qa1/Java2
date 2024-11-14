@@ -1,5 +1,5 @@
 env:
-  docker_tag: schalla/test:depscan-qa-0.0.9
+  docker_tag: schalla/duckdefender-v2:qa-latest
  
 # This is a basic workflow to help you get started with GitHub Actions 
 name: Scan code using fd code scanner 
@@ -8,6 +8,7 @@ name: Scan code using fd code scanner
 on:
   push: 
     branches: [ "master" ]
+
     
   
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel

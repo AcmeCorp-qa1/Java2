@@ -1,0 +1,7 @@
+fail-build-on: 
+  sca:
+    - critical
+    - high
+    - medium
+    - low
+    
